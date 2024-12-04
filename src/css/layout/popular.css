@@ -32,7 +32,7 @@
 .popular-top__link:after {
     content: "";
     position: absolute;
-    background-image: url(../images/icons/arrow.svg);
+    background-image: url(/images/icons/arrow.svg);
     width: 24px;
     height: 24px;
     right: 0;

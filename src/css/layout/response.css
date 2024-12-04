@@ -58,7 +58,7 @@
 .response__content-text:before {
     content: "";
     position: absolute;
-    background-image: url(../images/icons/start-quotes.svg);
+    background-image: url(/images/icons/start-quotes.svg);
     width: 17px;
     height: 15px;
     left: -17px
@@ -67,7 +67,7 @@
 .response__content-text:after {
     content: "";
     position: absolute;
-    background-image: url(../images/icons/end-quotes.svg);
+    background-image: url(/images/icons/end-quotes.svg);
     width: 17px;
     height: 15px
 }
