@@ -1,0 +1,153 @@
+.response-prev,
+.response-next {
+    color: var(--green-color) !important;
+    top: 70% !important;
+}
+
+.response-prev {
+    left: calc(50% - 30px) !important;
+}
+
+.response-next {
+    right: calc(50% - 30px) !important;
+}
+
+.response__inner {
+    position: relative;
+    max-width: 1350px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.response__wrapper {
+    padding: 65px 0 130px
+}
+
+.response__slide {
+    display: flex !important;
+    flex-direction: row;
+
+}
+
+.response__img {
+    margin-right: 57px;
+    object-fit: cover
+}
+
+.response__content {
+    padding-top: 28px
+}
+
+.response__content-title {
+    font-size: 30px;
+    line-height: 1.33;
+    color: var(--dark-grey-color);
+    margin-bottom: 12px
+}
+
+.response__content-stars {
+    margin-bottom: 44px
+}
+
+.response__content-text {
+    position: relative;
+    margin-bottom: 80px;
+    max-width: 625px
+}
+
+.response__content-text:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons/start-quotes.svg);
+    width: 17px;
+    height: 15px;
+    left: -17px
+}
+
+.response__content-text:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons/end-quotes.svg);
+    width: 17px;
+    height: 15px
+}
+
+.response__content-name {
+    font-size: 30px;
+    line-height: 1.33;
+    color: var(--dark-grey-color);
+    margin-bottom: 10px
+}
+
+.response__content-proffesion {
+    line-height: 1.2
+}
+
+@media(max-width:1200px) {
+    .response__img {
+        margin-right: 30px;
+        height: auto
+    }
+
+    .response__content-stars {
+        margin-bottom: 20px
+    }
+
+    .response__content-text {
+        margin-bottom: 40px
+    }
+
+    .response-prev,
+    .response-next {
+        color: var(--green-color) !important;
+        top: 90% !important;
+    }
+}
+
+@media(max-width:992px) {
+    .response__img {
+        width: 50%
+    }
+
+    .response__content-text {
+        margin-bottom: 20px
+    }
+}
+
+@media(max-width:768px) {
+    .response__wrapper {
+        padding: 40px 0
+    }
+
+    .response__slide {
+        flex-direction: column
+    }
+
+    .response__img {
+        width: 100%;
+        height: 300px;
+        margin-right: 0;
+        object-fit: scale-down
+    }
+
+    .response__content {
+        padding: 20px
+    }
+
+    .response__content-text {
+        max-width: 100%
+    }
+
+    .response__content-name,
+    .response__content-title {
+        font-size: 26px
+    }
+}
+
+@media(max-width:576px) {
+
+    .response__content-name,
+    .response__content-title {
+        font-size: 24px
+    }
+}

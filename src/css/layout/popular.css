@@ -1,0 +1,238 @@
+.popular {
+    padding: 128px 0 130px
+}
+
+.popular-top {
+    margin-bottom: 70px
+}
+
+.popular-top__title {
+    margin-bottom: 20px
+}
+
+.popular-top__box {
+    display: flex;
+    justify-content: space-between
+}
+
+.popular-top__descr {
+    max-width: 714px;
+    width: 100%
+}
+
+.popular-top__link {
+    font-size: 24px;
+    line-height: 1.25;
+    color: var(--dark-grey-color);
+    padding-right: 35px;
+    text-decoration: underline;
+    position: relative
+}
+
+.popular-top__link:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons/arrow.svg);
+    width: 24px;
+    height: 24px;
+    right: 0;
+    top: 3px
+}
+
+.popular-content {
+    display: flex
+}
+
+.popular-content__item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(104, 90, 82, .19);
+    max-width: 600px
+}
+
+.popular-content__item+.popular-content__item {
+    margin-left: 40px
+}
+
+.popular-content__img {
+    margin-bottom: 20px;
+    object-fit: cover
+}
+
+.popular-content__title {
+    margin: 0 28px 16px
+}
+
+.popular-content__title-link {
+    font-size: 40px;
+    line-height: 1.5;
+    color: var(--dark-grey-color)
+}
+
+.popular-content__descr {
+    margin: 0 28px 44px
+}
+
+.popular-content__box {
+    margin: auto 28px 31px;
+    display: flex;
+    align-items: center
+}
+
+.popular-content__btn-add,
+.popular-content__btn-buy {
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 1.3;
+    cursor: pointer;
+    border: none;
+    background-color: var(--brown-color);
+    color: var(--white-color);
+    border: 1px solid rgba(104, 90, 82, .46);
+    transition: all 0.3s;
+}
+
+.popular-content__btn-add:hover,
+.popular-content__btn-buy:hover {
+    background-color: var(--white-color);
+    color: var(--brown-color)
+}
+
+.popular-content__btn-add {
+    margin-left: 24px
+}
+
+.popular-content__price {
+    font-size: 30px;
+    line-height: 1.07;
+    color: var(--dark-grey-color);
+    margin-left: auto
+}
+
+@media(max-width:1200px) {
+    .popular {
+        padding: 128px 0 80px
+    }
+
+    .popular-top {
+        margin-bottom: 40px
+    }
+
+    .popular-top__link {
+        font-size: 22px
+    }
+
+    .popular-top__descr {
+        max-width: 500px
+    }
+
+    .popular-content__title-link {
+        font-size: 36px
+    }
+
+    .popular-content__box,
+    .popular-content__descr {
+        margin: 0 28px 25px
+    }
+
+    .popular-content__img {
+        height: auto
+    }
+}
+
+@media(max-width:992px) {
+    .popular-top {
+        margin-bottom: 30px
+    }
+
+    .popular-top__box {
+        flex-direction: column
+    }
+
+    .popular-top__descr {
+        margin-bottom: 15px
+    }
+
+    .popular-content__item+.popular-content__item {
+        margin-left: 15px
+    }
+
+    .popular-content__box,
+    .popular-content__descr,
+    .popular-content__title {
+        margin: 0 10px 20px
+    }
+
+    .popular-content__title-link {
+        font-size: 32px
+    }
+
+    .popular-content__price {
+        font-size: 26px
+    }
+
+    .popular-content__btn-add,
+    .popular-content__btn-buy {
+        padding: 10px 14px
+    }
+}
+
+@media(max-width:768px) {
+    .popular {
+        padding: 40px 0
+    }
+
+    .popular-top {
+        margin-bottom: 20px
+    }
+
+    .popular-content {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .popular-content__item+.popular-content__item {
+        margin-left: 0
+    }
+
+    .popular-content__item:first-child {
+        margin-bottom: 15px
+    }
+
+    .popular-content__link-title {
+        font-size: 28px
+    }
+
+    .popular-content__img {
+        height: 300px
+    }
+
+    .popular-content__box,
+    .popular-content__descr,
+    .popular-content__title {
+        margin: 0 10px 10px
+    }
+
+    .popular-content__price {
+        font-size: 22px
+    }
+}
+
+@media(max-width:576px) {
+    .popular-content__title-link {
+        font-size: 24px
+    }
+
+    .popular-content__box {
+        display: block
+    }
+
+    .popular-content__btn-add,
+    .popular-content__btn-buy {
+        width: 100%
+    }
+
+    .popular-content__btn-add {
+        margin: 10px 0
+    }
+}
