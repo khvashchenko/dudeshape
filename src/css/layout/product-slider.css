@@ -131,6 +131,11 @@
 }
 
 @media(max-width:576px) {
+    .product-slider-prev,
+    .product-slider-next {
+        display: none !important;
+    }
+
     .product-slider__form,
     .product-slider__input {
         width: 100%
