@@ -3,11 +3,6 @@
 ## Project Presentation
 Hello! I would like to present my test project, in which I implemented a responsive website using modern libraries and technologies.
 
-**Key Features of the Project:**
-
-- *Responsiveness:* The website displays correctly on all devices.
-- *Regarding the Design:* I want to note that I did not adhere to pixel-perfect precision in executing the layout, as the initial design was created without considering UI/UX design principles. In my implementation, I focused on adhering to these principles to ensure usability and intuitiveness for users.
-
 I hope you enjoy my project!
 
 ## Technologies Used
