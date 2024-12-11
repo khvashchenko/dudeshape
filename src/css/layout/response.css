@@ -142,14 +142,14 @@
     .response__content-title {
         font-size: 26px
     }
-}
 
-@media(max-width:576px) {
     .response-prev,
     .response-next {
         display: none !important;
     }
+}
 
+@media(max-width:576px) {
     .response__content-name,
     .response__content-title {
         font-size: 24px
